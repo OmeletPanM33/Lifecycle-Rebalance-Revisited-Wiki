@@ -23,9 +23,9 @@ This is a **Prefix** patch with standard priority that preempts the original met
 ### ResidentAI.UpdateAge
 uint citizenID, ref Citizen data
 
-This is a **Prefix** patch with standard priority that preempts the original method (returns **false** from the Prefix method).  It is always applied when the mod is running, and is critical to the operation of the mod; it implements all the lifecycle (mortality, sickness, deathcare) settings.
+This is a **Prefix** patch with standard priority that preempts the original method (returns **false** from the Prefix method).  It is always applied when the mod is running, and is **critical **to the operation of the mod; it implements all the lifecycle (mortality, sickness, deathcare) settings.
 
-It also calls its own private implementation of FinishSchoolOrWork(uint citizenID, ref Citizen data); when this mod migrates to Harmony 2.0 this private implementation will be replaced with a Reverse Redirect to the base method.
+It currently calls its own private implementations of FinishSchoolOrWork(uint citizenID, ref Citizen data) and Die(uint citizenID, ref Citizen data); when this mod migrates to Harmony 2.0 these private implementations will be replaced with a Reverse Redirect to the base method (possibly with a postfix to Die to implement the custom logging currently contained in the private implementation).
 
 # Citizen
 ### Citizen.GetAgeGroup
