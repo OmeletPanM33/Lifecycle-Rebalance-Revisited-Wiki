@@ -8,6 +8,7 @@ This mod serves two purposes.  Firstly, it applies various changes to your cim's
 
 **Thirdly**, immigrants to your city will now have a wide range of ages, from child through to seniors; education levels are also additionally randomised.  Incoming teens will automatically have elementary school education, and some (but not all!) incoming young adults will have high school education.
 
+### The effect of these changes
 In the base game, if a large number of new cims move into your city at the same time, then they would all age and die at the same time, creating the infamous "deathwaves".  These would be amplified as, in response to all the suddently-vacated housing, another wave of immigrants move in at the same time - and so on and so on....  The Sunset Harbor (1.13 update) introduced some level of randomisation of elderly cim death ages which helped this a little, but still left a lot to be desired.
 
 With this mod, the combined effect of all the above changes is that even if a whole bunch of new cims move into your city at exactly the same time, they will have randomised starting ages, even if two cims do have the same age, they'll (most likely) die at different times.  This spreads out cim deaths and smooths the deathwaves (note that there still will be some natural peaks and troughs, as happens in the real world, but nothing on the scale of the base game deathwaves).
