@@ -10,10 +10,12 @@ Currently, four detailed custom logs are available, and each has a unique log fi
 * **Transportation choices logging** Lifecycle transport log.txt
 * **Sickness logging** Lifecycle sickness log.txt
 
-Note that these logs only capture actions performed by this mod.  Actions performed by the base game or by other mods are not included.
+Note that these logs only capture actions performed by this mod.Actions performed by the base game or by other mods are not included.
 
 ### Death logging
-Records the citizen's age at death for every death caused by this mod (natural ageing).  Note that it doesn't record deaths NOT caused by this mod (those with 'special causes, e.g. pollution or natural disasters).
+Records the citizen's age at death for every death caused by this mod (natural ageing).
+
+**NOTE***: This log does not record deaths not caused by this mod (e.g. those with 'special causes', such as pollution or natural disasters).
 
 ### Immigration logging
 Records the age, family, and education level of every immigrant whose attributes have been selected by this mod.
@@ -28,4 +30,4 @@ Records every citizen made sick by this mod along with the 'chance factor' that 
 
 The chance factor is the chance out of 100,000 for the citizen to become sick out of each year of ageing (which is the % sickness chance in the settings divided by 35 if using default calculations or 25 if using legacy calculations; see the [theory of operation](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Lifecycle-calculations:-theory-of-operation#sickness) page for more details).
 
-**NOTE**: This log does **NOT **include sicknesses not caused by this mod, e.g. by pollution or noise.
+**NOTE**: This log does **NOT** include sicknesses not caused by this mod, e.g. by pollution or noise.
