@@ -2,7 +2,7 @@
 This mod serves two purposes.  Firstly, it applies various changes to your cim's (citzen's) lifecycles in order to make gameplay more realistic and avoid some of the problematic behaviours of the base game.  Secondly, it changes your cims' preferences for modes of travel (car, bicycle, taxi, walking/public transport), depending on age group, wealth level, and whether they live in low- or high-density buildings.  Both of these behaviours are configurable (see below).
 
 ## Lifecycle changes
-**Firstly**, Cims have a chance of early death, and realistic distributions of death depending on their age, calculated from real-life stats using the [url=http://www.aga.gov.au/publications/life_table_2010-12/]Australian Government Actuary table (2010-12)[/url].  Death rates will naturally increase as cims age, resulting in a more natural distribution of deaths than in the base game.
+**Firstly**, Cims have a chance of early death, and realistic distributions of death depending on their age, calculated from real-life stats using the [url=http://www.aga.gov.au/publications/life_table_2010-12/][Australian Government Actuary table (2010-12)].  Death rates will naturally increase as cims age, resulting in a more natural distribution of deaths than in the base game.
 
 **Secondly**, illness rates are increased (note that this does NOT encourage deathwaves). This means your that the standard of healthcare provision is more relevant, and can add another randomising factor to cim lifespans.
 
