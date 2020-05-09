@@ -10,7 +10,7 @@ Each of the density settings is in turn broken down into low-, medium-, and high
 ### Age group
 Finally, each wealth level is broken down into the five citizen age groups: child, teen, young (young adult), adult, and senior.  Each of these groups can be given its own transport preferences; for example, you may not want to see any children driving cars!
 ## Transport probabilities
-The modifiers are for car, bike (bicycle), and taxi.  Each modifier is a percentage chance of taking that option when the game checks for it.  Note that these do NOT need to add up to 100%, and that there is no separate chance for walking or public transport - and that's due to how the game operates:
+The modifiers are for car, bike (bicycle), and taxi.  Each modifier is an integer percentage chance of taking that option when the game checks for it.  Note that these do NOT need to add up to 100%, and that there is no separate chance for walking or public transport - and that's due to how the game operates:
 
 The game works by doing a probability check against each of the modes in order.  It will first check the probability of car travel; if car is not chosen, then it checks against the bicycle probability; if that isn't chosen, it checks taxi; and if that isn't taken then the citizen will walk or use public transport.
 
