@@ -2,9 +2,9 @@
 This mod serves two purposes.  Firstly, it applies various changes to your cim's (citzen's) lifecycles in order to make gameplay more realistic and avoid some of the problematic behaviours of the base game.  Secondly, it changes your cims' preferences for modes of travel (car, bicycle, taxi, walking/public transport), depending on age group, wealth level, and whether they live in low- or high-density buildings.  Both of these behaviours are configurable (see below).
 
 ## Lifecycle changes
-**Firstly**, Cims have a chance of early death, and realistic distributions of death depending on their age, calculated from real-life stats using the [Australian Government Actuary table (2010-12)](http://www.aga.gov.au/publications/life_table_2010-12/).  Death rates will naturally increase as cims age, resulting in a more natural distribution of deaths than in the base game.
+**Firstly**, Cims have a chance of early death, and realistic distributions of death depending on their age, calculated from real-life stats using the [Australian Government Actuary table (2010-12)](http://www.aga.gov.au/publications/life_table_2010-12/).  Death rates will naturally increase as cims age, resulting in a more natural distribution of deaths than in the base game.  These death rates can be fully customised via the configuration file.
 
-**Secondly**, illness rates are increased (note that this does NOT encourage deathwaves). This means your that the standard of healthcare provision is more relevant, and can add another randomising factor to cim lifespans.
+**Secondly**, illness rates are increased (note that this does NOT encourage deathwaves). This means that the standard of healthcare provision is more relevant, and can add another randomising factor to cim lifespans. The rate of illness can be fully customised either via the configuration file or the in-game mod options panel.
 
 **Thirdly**, immigrants to your city will now have a wide range of ages, from child through to seniors; education levels are also additionally randomised.  Incoming teens will automatically have elementary school education, and some (but not all!) incoming young adults will have high school education.
 
@@ -16,3 +16,6 @@ This randomisation of both ages and education levels works in combination with t
 
 ## Mode of travel
 The default configuation is designed to work in conjunction with the [Realistic Population Revisited](https://steamcommunity.com/sharedfiles/filedetails/?id=2025147082) mod, and implements higher car usage in low-density areas but lower car usage in high-density areas (compared to the base game).  Additional optional configurations are also provided for default game, car-heavy usage, and car usage scaled according to wealth.
+
+## Deathcare chance
+This mod also changes the demand for deathcare in your population; specifically, it reduced the percentage of dead bodies that require deathcare (hearse) transport.  The default game requires deathcare transportaton for 67% of dead bodies; this mod by default reduces that to 50%.  This value can be customise anywhere from 0% to 100% either via the configuration file or the mod options panel; using this option, it's possible to entirely eliminate the need for deathcare and hearse transportation in your city, if you so desire.
