@@ -25,7 +25,9 @@ If the cim dies, an integer random number from 0 to 2 is generated; if this is z
 ## Mod calculations
 The cim's age decile is calculated by dividing the cim's age by 35 (for Sunset Harbor calculations) or 25 (for Legacy calculations).
 
-A modifier based on m_health and m_wellbeing is generated: 90,000 plus (150 * health ) plus (50 * wellbeing).  This gives a number between 90,000 and 110,000 (which will translate to between 90% and 110% in the calculations below; integer calculations are used throughout).
+A modifier based on m_health and m_wellbeing is generated:
+* 90,000 plus (150 * health ) plus (50 * wellbeing).
+This gives a number between 90,000 and 110,000 (which will translate to between 90% and 110% in the calculations below; integer calculations are used throughout).
 
 The cim's survival probability per decile, via the DataStore, is derived from the probability in the configuration file:
 * **Sunset Harbor calculations:** 100,000 - (100,000 * (probability^(1/35)))
