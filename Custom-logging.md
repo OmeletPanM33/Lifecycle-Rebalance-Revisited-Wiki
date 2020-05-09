@@ -4,13 +4,13 @@ The options to activate (or deactivate) these logs can be found at the bottom of
 
 When activated, each option will log its activity to the specified text file in your local settings directory (see the [configuration files](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Configuration-files) page for details on where this is for your operating system).  If the relevant file doesn't already exist, it will be created automatically; if it already exists, the output will be appended to the end of the file.
 
-Note that these logs only capture actions performed by this mod.  Actions performed by the base game or by other mods are not included.
-
 Currently, four detailed custom logs are available, and each has a unique log filename:
 * **Death logging**: Lifecycle death log.txt
 * **Immigration logging** Lifecycle immigration log.txt
 * **Transportation choices logging** Lifecycle transport log.txt
 * **Sickness logging** Lifecycle sickness log.txt
+
+Note that these logs only capture actions performed by this mod.  Actions performed by the base game or by other mods are not included.
 
 ### Death logging
 Records the citizen's age at death for every death caused by this mod (natural ageing).  Note that it doesn't record deaths NOT caused by this mod (those with 'special causes, e.g. pollution or natural disasters).
