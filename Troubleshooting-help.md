@@ -6,3 +6,5 @@ If you're having difficulties with the mod, there's a number of basic troublesho
 * Running the [Duplicate Assembly Scanner](https://steamcommunity.com/sharedfiles/filedetails/?id=2013398705) can also help, especially if you have another mod using an outdated version of Harmony.
 * The [custom logging options](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Custom-logging) can help identify the impacts of any problems, and may be required to help troubleshoot further.
 * If you're still having problems after curating your mods list, then the best place to ask for help is on the [mod's Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=2027161563).  Note that (at a minimum) you will probably be asked to provide your output_log.txt; please see [this guide](url=https://steamcommunity.com/sharedfiles/filedetails/?id=46364593) on output logs and common errors for more details on what that is and how to find it.  You may also be asked to provide any custom log files that might be relevant to your situation.
+
+[this guide](url=https://steamcommunity.com/sharedfiles/filedetails/?id=46364593)
