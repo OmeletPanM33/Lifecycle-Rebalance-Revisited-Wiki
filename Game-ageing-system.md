@@ -8,4 +8,4 @@ After the 1.13 update, citizens now die randomly between 240 and 400(!), dependi
 (A side-effect of the 1.13 changes was a significant increase in the number of seniors; with a healthy senior population, an unmodded Sunset Harbor game will see over twice the number of seniors than an unmodded pre-Sunset Harbor game.  This threw a large number of existing cities out of balance and caused a lot of player frustration).
 
 ### Mod calculations
-Prior to the definition of 3.5 age-units-per-year (AUPY) introduced in 1.13, the original WG mod assumed 2.5 AUPY.  This original behaviour is replicated by the 'legacy calculations' option of this mod; the 'Sunset Harbor calculations' use the game value of 3.5 AUPY.
+Prior to the definition of 3.5 age-units-per-year (AUPY) introduced in 1.13, the original WG mod assumed 2.5 AUPY.  This original behaviour is replicated by the 'legacy calculations' option of this mod (which assumes 25 age units per decade); the 'Sunset Harbor calculations' use the game value of 3.5 AUPY (35 age units per decade).
