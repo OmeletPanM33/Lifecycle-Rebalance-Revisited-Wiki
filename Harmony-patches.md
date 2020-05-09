@@ -3,12 +3,16 @@ Lifecycle Rebalance Revisited currently uses Harmony 1.2.0.1 to deploy the follo
 ### ResidentAI.GetCarProbability
 ushort instanceID, ref CitizenInstance citizenData, Citizen.AgeGroup ageGroup
 
-This is a **Prefix** patch with standard priority that preempts the original method (returns **false** from the Prefix method). It is always applied when the mod is running and implements the mod's changed transport preferences.
+This is a **Prefix** patch with standard priority that preempts the original method (returns **false** from the Prefix method).
+
+It is always applied when the mod is running and implements the mod's changed transport preferences.
 
 ### ResidentAI.GetBikeProbability
 ushort instanceID, ref CitizenInstance citizenData, Citizen.AgeGroup ageGroup
 
-This is a **Prefix** patch with standard priority that preempts the original method (returns **false** from the Prefix method).  It is always applied when the mod is running and implements the mod's changed transport preferences.
+This is a **Prefix** patch with standard priority that preempts the original method (returns **false** from the Prefix method).
+
+It is always applied when the mod is running and implements the mod's changed transport preferences.
 
 ### ResidentAI.GetTaxiProbability
 ushort instanceID, ref CitizenInstance citizenData, Citizen.AgeGroup ageGroup
