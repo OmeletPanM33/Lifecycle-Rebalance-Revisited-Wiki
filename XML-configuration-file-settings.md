@@ -26,10 +26,14 @@ Currently unused.
 Changing this will reduce the in-game speed of citizen ageing by this multiplier. Integer value; mod default is 2.
 ### Survival
 Each decile (10 years) of life has its own survival chance, defined as the percentage of the population entering that decile that will survive to the next decile.  Float values with no more than 3 decimal places are preferred.
+
+The application of these probabilities is described in the [theory of operation](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Lifecycle-calculations:-theory-of-operation#death) page.
 ### Sickness
 These values are also configurable through the in-game mod options panel.
 
 Each decile (10 years) of life will have its own sickness chance.  It is defined as the percentage of the population entering that decile that will become sick by the next decile.  Float values with no more than 3 decimal places are preferred.
+
+The application of these probabilities is described in the [theory of operation](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Lifecycle-calculations:-theory-of-operation#sickness) page.
 ### cheatHearse
 This value is also configurable through the in-game mod options panel.
 
