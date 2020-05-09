@@ -26,9 +26,11 @@ Changing this will reduce the in-game speed of citizen ageing by this multiplier
 Each decile (10 years) of life has its own survival chance, defined as the percentage of the population entering that decile that will survive to the next decile.  Float values with no more than 3 decimal places are preferred.
 ### Sickness
 These values are also configurable through the in-game mod options panel.
+
 Each decile (10 years) of life will have its own sickness chance.  It is defined as the percentage of the population entering that decile that will become sick by the next decile.  Float values with no more than 3 decimal places are preferred.
 ### cheatHearse
 This value is also configurable through the in-game mod options panel.
+
 When people die of old age, they have this percentage chance for their bodies to simply disappear (without requiring deathcare or hearse transport).  Set this value to 100 to avoid any need for deathcare or hearses due to deaths from old age.  Integer value; mod default is 50.
 
 **NOTE:** Deaths caused by events (including deaths from pollution) are not covered by this mechanic.
