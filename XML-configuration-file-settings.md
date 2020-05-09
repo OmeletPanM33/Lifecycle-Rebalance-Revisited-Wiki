@@ -29,7 +29,7 @@ Each decile (10 years) of life has its own survival chance, defined as the perce
 ### sickness
 Each decile (10 years) of life will have its own sickness chance.  It is defined as the percentage of the population entering that decile that will become sick by the next decile.  Float values with no more than 3 decimal places are preferred
 
-## cheatHearse
+### cheatHearse
 When people die of old age, they have this percentage chance for their bodies to simply disappear (without requiring deathcare or hearse transport).  Set this value to 100 to avoid any need for deathcare or hearses due to deaths from old age.
 
 **NOTE:** Deaths caused by events (including deaths from pollution) are not covered by this mechanic.
