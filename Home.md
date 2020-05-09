@@ -11,6 +11,9 @@ Lifecycle Rebalance Revisited is a mod for Cities: Skylines, and is published on
 ### Having problems?
 * Check out the [troubleshooting guide](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Troubleshooting-help) for tips on what to do.
 
+### Modding info
+* This mod uses Harmony 1.2.0.1 to implement [these Harmony patches](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Harmony-patches).
+
 ### Mod background
 Lifecycle Rebalance Revisited is a continuation of Whitefang Greytail's (now deprecated) Citizen Lifecycle Rebalance v2.6 mod, which in turn was created in order to support Whitefang Greytail's Realistic Population and Consumption mod (that mod is also now deprecated and is continued with [Realistic Population Revisited](https://steamcommunity.com/sharedfiles/filedetails/?id=2025147082)).
 
