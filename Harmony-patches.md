@@ -1,4 +1,5 @@
 Lifecycle Rebalance Revisited currently uses Harmony 1.2.0.1 to deploy the following patches:
+# ResidentAI
 ### ResidentAI.GetCarProbability
 ushort instanceID, ref CitizenInstance citizenData, Citizen.AgeGroup ageGroup
 
@@ -26,6 +27,7 @@ This is a **Prefix** patch with standard priority that preempts the original met
 
 It also calls its own private implementation of FinishSchoolOrWork(uint citizenID, ref Citizen data); when this mod migrates to Harmony 2.0 this private implementation will be replaced with a Reverse Redirect to the base method.
 
+# Citizen
 ### Citizen.GetAgeGroup
 uint citizenID, ref Citizen data
 
