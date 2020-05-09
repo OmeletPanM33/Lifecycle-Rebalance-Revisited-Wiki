@@ -16,6 +16,9 @@ The game works by doing a probability check against each of the modes in order. 
 
 So, if you want to see a lot of walkers/public transport passengers, set the car, bike, and taxi probabilities low.
 
+## Migrate
+Currently unused.
+
 ## Lifespan
 ### modifier
 Changing this will expand the lifespan of the people by this number. Integer values are accepted. Default is 2.
