@@ -1,9 +1,9 @@
 This describes the function of the citizen ageing code found in ResidentAI.UpdateAge(uint citizenID, ref Citizen data)
 
 ### General notes
-Cim health (m_health), is clamped between 0 and 100 - see ResidentAI.UpdateHealth(uint citizenID, ref Citizen data).
-Cim wellbeing (m_wellbeing), is clamped between 0 and 100 - see ResidentAI.UpdateWellbeing(uint citizenID, ref Citizen data).
-A 'full life' for statistical purposes as defined by the game is at age 240.
+* Cim health (m_health), is clamped between 0 and 100 - see ResidentAI.UpdateHealth(uint citizenID, ref Citizen data).
+* Cim wellbeing (m_wellbeing), is clamped between 0 and 100 - see ResidentAI.UpdateWellbeing(uint citizenID, ref Citizen data).
+* A 'full life' for statistical purposes as defined by the game is at age 240.
 
 ## Base game
 
