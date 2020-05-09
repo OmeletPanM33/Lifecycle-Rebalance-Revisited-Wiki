@@ -11,7 +11,7 @@ This describes the function of the citizen ageing code found in ResidentAI.Updat
 * Number 1 is set to the cim's age +1.
 * Number 2 is set at 240, number 3 at 255.
 * Number 4 is calculated thus: invert the health percentage (m_health), multiply by 3, then subtract from 145.
-* A sim with full health will end up with 145, a cim with less than 51.6667 health will end up with 0 (minimum bound).
+* A cim with full health will end up with 145, a cim with less than 51.6667 health will end up with 0 (minimum bound).
 * Number 2 is then increased by one-third of number 4 (so a cim with full health ends up with 288.333; poor health, 240).
 * Number 3 is then increased by number 4 (so a cim with full health ends up with 400; poor health, 255).
 * A 'random death chance' flag is then calculated (for cims who are stationary and not in vehicles) of 0.15% (3 / 2000).
