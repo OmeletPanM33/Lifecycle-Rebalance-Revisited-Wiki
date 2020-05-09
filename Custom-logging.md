@@ -30,4 +30,4 @@ Records every citizen made sick by this mod along with the 'chance factor' that 
 
 The chance factor is the chance out of 100,000 for the citizen to become sick out of each year of ageing (which is the % sickness chance in the settings divided by 35 if using default calculations or 25 if using legacy calculations; see the [theory of operation](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Lifecycle-calculations:-theory-of-operation#sickness) page for more details).
 
-**NOTE**: This log does **NOT** include sicknesses not caused by this mod, e.g. by pollution or noise.
+**NOTE**: This log does not include sicknesses not caused by this mod, e.g. by pollution or noise.
