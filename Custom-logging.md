@@ -2,7 +2,7 @@ In addition to the standard logging to the output_log.txt, Lifecyle Rebalance Re
 
 The options to activate (or deactivate) these logs can be found at the bottom of the mod's in-game options panel.  Each logging option can be activated or deactivated independently of the others.
 
-When activated, each option will log its activity to the specified text file in your local settings directory (see the [Configuration files](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Configuration-files) page for details on where this is for your operating system).  If the relevant file doesn't already exist, it will be created automatically; if it already exists, the output will be appended to the end of the file.
+When activated, each option will log its activity to the specified text file in your local settings directory (see the [configuration files](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Configuration-files) page for details on where this is for your operating system).  If the relevant file doesn't already exist, it will be created automatically; if it already exists, the output will be appended to the end of the file.
 
 Currently, four detailed custom logs are available, and each has a unique log filename:
 * **Death logging**: Lifecycle death log.txt
