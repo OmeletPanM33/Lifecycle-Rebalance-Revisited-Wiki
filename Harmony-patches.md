@@ -37,6 +37,6 @@ This is a **Prefix** patch with standard priority that preempts the original met
 ### StartConnectionTransferImpl
 ushort buildingID, ref Building data, TransferManager.TransferReason material, TransferManager.TransferOffer offer, int touristFactor0, int touristFactor1, int touristFactor2
 
-This is a **Prefix** patch with standard priority but after **connection.outside.advanced** that preempts the original method (returns **false** from the Prefix method).  Following **connection.outside.advanced** enables the AdvancedOutsideConnection Prefix patch to execute first to set up its tourist factor changes as there's no conflict between that mod and this mod's patches.
+This is a **Prefix** patch with standard priority but after **connection.outside.advanced** that preempts the original method (returns **false** from the Prefix method).  Following **connection.outside.advanced** enables the AdvancedOutsideConnection Prefix patch to execute first to set up its tourist factor changes, as there's no conflict between that mod and this mod's patches.
 
 Currently, this Prefix patch re-implements the entire original method with the patch itself in the middle.  Obviously, this is less than ideal, and is a remnant of the original migration from the WG Detours implementation to Harmony.  A replacement Transpiler patch is currently in development.
