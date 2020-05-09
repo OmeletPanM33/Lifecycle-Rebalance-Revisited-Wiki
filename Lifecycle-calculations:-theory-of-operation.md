@@ -27,7 +27,7 @@ The cim's age decile is calculated by dividing the cim's age by 35 (for Sunset H
 
 A modifier based on m_health and m_wellbeing is generated: 90,000 plus (150 * health ) plus (50 * wellbeing).  This gives a number between 90,000 and 110,000 (which will translate to between 90% and 110% in the calculations below; integer calculations are used throughout).
 
-The cim's survival probability per decile, via the DataStore from the configuration file, is derived from the probability in the configuration file thus:
+The cim's survival probability per decile, via the DataStore, is derived from the probability in the configuration file:
 * **Sunset Harbor calculations:** 100,000 - (100,000 * (probability^(1/35)))
 * **Legacy calculations:** 100,000 - (100,000 * (1 + ln(probability) / 25))
 
@@ -37,7 +37,7 @@ If the cim dies, an integer random number from 0 to 99 is generated; if this is 
 
 A random number is then generated between zero and the modifier calculated above; if this number is less than the random sickness chance in the Datastore for that cim's decile, the cim will become sick.
 
-The sickness chance per decile is  derived from the probability in the configuration file thus:
+The sickness chance per decile is derived from the probability in the configuration file:
 * **Sunset Harbor calculations:** 100,000 * (probability / 35)
 * **Legacy calculations:** 100,000 * (probability / 25)
 
