@@ -12,5 +12,7 @@ Changed values in the file will be seen on loading a different city or loading f
 
 Some values in this file can be changed (without having to edit the XML directly) by using the in-game mod options panel.  Changes made via this method will also take place immediately in game as soon as the relevant 'Save' button is pressed.
 
+Information about the contents of this file (so that you can edit it directly) can be found on the [XML configuration file settings](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/XML-configuration-file-settings) page.
+
 # Lifecycle Rebalance Revisited configuration file (LifecycleRebalance.xml)
 An additional configuration file called 'LifecycleRebalance.xml' resides in the main application directory (in Windows, Steam\steamppas\common\Cities_Skylines).  This file contains settings added in Lifecycle Rebalance Revisited for features that aren't available in the original mod, such as calculation mode selections and retirement age options.  This file shouldn't be edited manually; instead, use the in-game mod options panel,
