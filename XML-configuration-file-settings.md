@@ -2,6 +2,8 @@ This page describes the settings in the WG_CitizenEdit.xml file and what they do
 
 The game will auto-generate a replacement settings file (with the mod default settings) if this file is missing or damaged.  If you want to reset to the defaults, simply delete the file.
 
+The location and other information about the file can be found in the [configuration files](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Configuration-files) page.
+
 ## Travel
 ### Density
 This section is broken down into low- and high- density sections, used for the residents of low- and high-density residential buildings (so people living in detached houses can have different travel preferences to those living in dense apartments, just like in real life).
