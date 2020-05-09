@@ -1,1 +1,1 @@
-[Home](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki)
+[Home](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Lifecycle-Rebalance-Revisited)
