@@ -6,7 +6,7 @@ Lifecycle Rebalance Revisited is a mod for Cities: Skylines, and is published on
 * The [configuration files](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Configuration-files), and [how to edit the mod's settings for yourself](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/XML-configuration-file-settings).
 * Several [pre-made configuration files](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Included-alternative-configuration-files) with different settings that are included with the mod.
 * [Custom logging options](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Custom-logging) to help with troubleshooting (or if you're just curious to see what the mod's actually doing).
-* A [description of the game's ageing mechanism](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Game-ageing-system).
+* A [description of the game's ageing mechanism](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Game-ageing-system) (and what the mod does instead).
 * The [maths behind the lifecycle calculations.](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Lifecycle-calculations:-theory-of-operation)
 * [Planned features](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Planned-features) for future releases.
 
