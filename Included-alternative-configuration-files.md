@@ -1,4 +1,4 @@
-There are four presets in the source directory of the mod (`Steam\SteamApps\workshop\content\255710\2027161563`); to use of these, copy it to your [local settings directory](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Configuration-files) and rename it WG_CitizenEdit.xml (after first deleting any existing WG_CitizenEdit.xml file in that location).
+There are four presets in the mod's directory (`Steam\SteamApps\workshop\content\255710\2027161563`); to use of these, copy it to your [local settings directory](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Configuration-files) and rename it WG_CitizenEdit.xml (after first deleting any existing WG_CitizenEdit.xml file in that location).
 
 The preset files function as follows:
 * **WG_CarAsWealth.xml**: car usage is based off wealth levels (higher wealth levels means more car usage); overall, the car usage is quite high.
