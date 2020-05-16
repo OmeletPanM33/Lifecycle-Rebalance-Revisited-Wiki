@@ -49,7 +49,10 @@ It currently calls its own private implementations of FinishSchoolOrWork(uint ci
 ### ResidentAI.UpdateHealth (1.4 BETA)
 _uint citizenID, ref Citizen data_
 
-This is a **Transpiler** patch that replaces code near the end of the method that calculates the base game's chance of a deceased citizen being released (instead of requiring deathcare transportation) with a call to this mod's deathcare transportation policy instead.  The exact C# code changed is the line immediately after the call to Die(citizenID, ref data):
+This is a **Transpiler** patch that implement's the mod's deathcare transportation probabilities for citizens who die from illness.
+
+This patch replaces the code that calculates the base game's chance of a deceased citizen being released (instead of requiring deathcare transportation) with a call to this mod's deathcare transportation policy instead.  The exact C# code changed is near the end of the method and is the line immediately after the call to Die(citizenID, ref data):
+
 `if (Singleton<SimulationManager>.instance.m_randomizer.Int32(2u) == 0)`
 
 # Citizen
