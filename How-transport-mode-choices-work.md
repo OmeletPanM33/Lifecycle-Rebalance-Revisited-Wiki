@@ -25,7 +25,7 @@ For each agegroup (child/teen/young adult/adult/senior), the base game always re
 * For bikes, 40/30/20/10/0 (plus 10 to each chance if the cim lives in a building covered by the 'Encourage Biking' policy)
 * For taxis, 0/2/2/4/6
 
-These probabilities are duplicated by the 'WG_GameDefaults.xml' alternative configuration file packaged with this mod.
+These probabilities are duplicated by the 'WG_GameDefaults.xml' [alternative configuration file](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Included-alternative-configuration-files) packaged with this mod.
 
 ## Tourists
 Tourists always have a 20% chance for any transport probability choice, with no breakdowns based on age (which is why you sometimes see tourist children driving cars).
