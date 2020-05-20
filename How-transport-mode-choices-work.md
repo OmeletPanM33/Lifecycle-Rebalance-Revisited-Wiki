@@ -3,7 +3,7 @@ Once the game has decided that a citizen wants to travel to a destination, it lo
 
 If the cim tries to get a vehicle, the game then queries a subroutine to get the specific probabilites (out of 100) for car usage, bike usage, and taxi usage (in that order).  These probabilities do not need to sum to 100, as the game checks each probability individually.
 
-This part (the % chance for each transport mode that's returned to the part of the game that makes that query) is what this mod changes.
+This part (the percentage chance for each transport mode that's returned to the part of the game that makes that query) is what this mod changes.
 
 Note that the Tourist AI has it's own implementation of these probabilites, which this mod doesn't touch (this mod only patches Resident AI).
 
