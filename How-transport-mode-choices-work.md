@@ -13,9 +13,9 @@ If the probability for one of those is met, then that's the vehicle the citizen 
 This mod simply changes the results of the queries the game makes to determine the probability of each mode of transport for that citizen.  The final decision of transport mode is then made by the game, based on the probabilities provided.
 
 The relevant methods patched by this mod are:
-* `ResidentAI.GetCarProbability`
-* `ResidentAI.GetBikeProbability`
-* `ResidentAI.GetTaxiProbability`
+* [`ResidentAI.GetCarProbability`](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Harmony-patches#residentaigetcarprobability)
+* [`ResidentAI.GetBikeProbability`](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Harmony-patches#residentaigetbikeprobability)
+* [`ResidentAI.GetTaxiProbability`](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Harmony-patches#residentaigettaxiprobability)
 
 This mod doesn't do anything else other than to change those probabilities.  In particular, this mod does **NOT** affect the determination of when and where a citizen travels, or if a citizen decides to walk or take public transport before a vehicle check is made, or any route selection or pathfinding.
 
