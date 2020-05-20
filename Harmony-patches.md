@@ -2,7 +2,7 @@ Lifecycle Rebalance Revisited currently uses [Harmony 1.2.0.1](https://github.co
 
 # ResidentAI
 ### ResidentAI.GetCarProbability
-_ushort instanceID, ref CitizenInstance citizenData, Citizen.AgeGroup ageGrou_p
+_ushort instanceID, ref CitizenInstance citizenData, Citizen.AgeGroup ageGroup_
 
 This is a **Prefix** patch with standard priority that **preempts** the original method (returns **false** from the Prefix method).
 
