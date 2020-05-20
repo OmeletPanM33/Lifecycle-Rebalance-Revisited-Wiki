@@ -19,7 +19,7 @@ The relevant methods patched by this mod are:
 
 This mod doesn't do anything else other than to change those probabilities.  In particular, this mod does **NOT** affect the determination of when and where a citizen travels, or if a citizen decides to walk or take public transport before a vehicle check is made, or any route selection or pathfinding.
 
-# Vanilla behaviour
+# Base game behaviour
 For each agegroup (child/teen/young adult/adult/senior), the base game always returns probabilities of:
 * For cars, 0/5/15/20/10
 * For bikes, 40/30/20/10/0 (plus 10 to each chance if the cim lives in a building covered by the 'Encourage Biking' policy)
