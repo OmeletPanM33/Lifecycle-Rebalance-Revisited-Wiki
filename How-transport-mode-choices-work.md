@@ -22,7 +22,7 @@ This mod doesn't do anything else other than to change those probabilities.  In 
 # Base game behaviour
 For each agegroup (child/teen/young adult/adult/senior), the base game always returns probabilities of:
 * For cars, 0/5/15/20/10
-* For bikes, 40/30/20/10/0 (plus 10 to each chance if the cim lives in a building covered by the 'Encourage Biking' policy)
+* For bikes, 40/30/20/10/0 (plus 10 to each chance if the citizen lives in a building covered by the 'Encourage Biking' policy)
 * For taxis, 0/2/2/4/6
 
 These probabilities are duplicated by the 'WG_GameDefaults.xml' [alternative configuration file](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Included-alternative-configuration-files) packaged with this mod.
