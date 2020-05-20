@@ -5,8 +5,6 @@ If the cim tries to get a vehicle, the game then queries a subroutine to get the
 
 This part (the percentage chance for each transport mode that's returned to the part of the game that makes that query) is what this mod changes.
 
-Note that the Tourist AI has it's own implementation of these probabilites, which this mod doesn't touch (this mod only patches Resident AI).
-
 If the probability for one of those is met, then that's the vehicle the citizen will try to use. If no vehicle ends up being selected, and there's no viable walking/public transport option, or if pathfinding fails (e.g. if there's no connected road), then the travel attempt will simply fail and the cim won't go anywhere (and won't be instantiated as a 'visible' travelling cim for this attempt). 
 
 ## Base game behaviour
@@ -21,7 +19,7 @@ These probabilities are duplicated by the 'WG_GameDefaults.xml' [alternative con
 Tourists always have a 20% chance for any transport probability choice, with no breakdowns based on age (which is why you sometimes see tourist children driving cars).
 
 ## Mod changes
-This mod simply changes the results of the queries the game makes to determine the probability of each mode of transport for that citizen.  The final decision of transport mode is then made by the game, based on the probabilities provided.
+This mod simply changes the results of the queries the game makes to determine the probability of each mode of transport for that citizen (tourists are not affected by this mod).  The final decision of transport mode is then made by the game, based on the probabilities provided.
 
 The relevant methods patched by this mod are:
 * [`ResidentAI.GetCarProbability`](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Harmony-patches#residentaigetcarprobability)
