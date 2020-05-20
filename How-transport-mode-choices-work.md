@@ -29,7 +29,3 @@ These probabilities are duplicated by the 'WG_GameDefaults.xml' [alternative con
 
 ## Tourists
 Tourists always have a 20% chance for any transport probability choice, with no breakdowns based on age (which is why you sometimes see tourist children driving cars).
-
-If it is just normal transport preferences, then it's just the mod doing exactly what it says it does (and can easily be changed).
-
-All this mod does is change the results of when the game asks what mode of transport the citizen wants to use. The game determines when and where a citizen travels, seeks input from transport choice routines, then decides the method of travel, then conducts pathfinding. The only part this mod touches in all of that is the transport choice routines (it doesn't even get to make the final decision on transport mode, just gives the probabilities to the game for it to decide). 
