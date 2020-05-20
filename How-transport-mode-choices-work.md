@@ -16,7 +16,7 @@ For each agegroup (child/teen/young adult/adult/senior), the base game always re
 These probabilities are duplicated by the 'WG_GameDefaults.xml' [alternative configuration file](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Included-alternative-configuration-files) packaged with this mod.
 
 ### Tourists
-Tourists always have a 20% chance for any transport probability choice, with no breakdowns based on age (which is why you sometimes see tourist children driving cars).
+Tourists always have a 20% chance for any transport probability choice, with no breakdowns based on age (which is why you sometimes see tourist children driving cars).  This mod does not change tourist probabilities.
 
 ## Mod changes
 This mod simply changes the results of the queries the game makes to determine the probability of each mode of transport for that citizen (tourists are not affected by this mod).  The final decision of transport mode is then made by the game, based on the probabilities provided.
