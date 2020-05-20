@@ -10,7 +10,12 @@ Note that the Tourist AI has it's own implementation of these probabilites, whic
 If the probability for one of those is met, then that's the vehicle the citizen will try to use. If no vehicle ends up being selected, and there's no viable walking/public transport option, or if pathfinding fails (e.g. if there's no connected road), then the travel attempt will simply fail and the cim won't go anywhere (and won't be instantiated as a 'visible' travelling cim for this attempt). 
 
 # Mod changes
-This mod simply changes the results of the queries the game makes to determine the probability of each mode of transport for that citizen (these queries are the method calls to `ResidentAI.GetCarProbability`, `ResidentAI.GetBikeProbability`, and `ResidentAI.GetTaxiProbability()`).  The final decision of transport mode is then made by the game, based on the probabilities provided.
+This mod simply changes the results of the queries the game makes to determine the probability of each mode of transport for that citizen.  The final decision of transport mode is then made by the game, based on the probabilities provided.
+
+The relevant methods patched by this mod are:
+* `ResidentAI.GetCarProbability`
+* `ResidentAI.GetBikeProbability`
+* `ResidentAI.GetTaxiProbability`
 
 This mod doesn't do anything else other than to change those probabilities.  In particular, this mod does **NOT** affect the determination of when and where a citizen travels, or if a citizen decides to walk or take public transport before a vehicle check is made, or any route selection or pathfinding.
 
