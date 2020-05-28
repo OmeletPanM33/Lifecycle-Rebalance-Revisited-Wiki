@@ -38,7 +38,7 @@ It is always applied when the mod is running, and is **critical** to the operati
 
 This patch also uses reverse redirects to access game instances of FinishSchoolOrWork and Die methods.
 
-### ResidentAI.UpdateHealth (1.4 BETA)
+### ResidentAI.UpdateHealth
 _uint citizenID, ref Citizen data_
 
 This is a **Transpiler** patch that implement's the mod's deathcare transportation probabilities for citizens who die from illness.
