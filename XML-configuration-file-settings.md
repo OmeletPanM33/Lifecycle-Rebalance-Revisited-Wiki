@@ -23,7 +23,7 @@ Currently unused.
 
 ## Lifespan
 ### modifier
-Changing this will reduce the in-game speed of citizen ageing by this multiplier. Integer value; mod default is 2.
+Changing this will reduce the in-game speed of citizen ageing by this multiplier. Integer value; mod default is 3.
 ### Survival
 Each decile (10 years) of life has its own survival chance, defined as the percentage of the population entering that decile that will survive to the next decile.  Float values with no more than 3 decimal places are preferred.
 
