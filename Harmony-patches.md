@@ -1,4 +1,4 @@
-Lifecycle Rebalance Revisited currently uses [Harmony 1.2.0.1](https://github.com/pardeike/Harmony) to deploy the following patches:
+Lifecycle Rebalance Revisited currently uses [Harmony 2.0](https://github.com/pardeike/Harmony) (via boformer's [CitiesHarmony](https://github.com/boformer/CitiesHarmony)) to deploy the following patches:
 
 # ResidentAI
 ### ResidentAI.GetCarProbability
