@@ -9,7 +9,6 @@ Lifecycle Rebalance Revisited is a mod for Cities: Skylines, and is published on
 * A [description of the game's ageing mechanism](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Game-ageing-system).
 * A [description of how the game's transportation mode choices work](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/How-transport-mode-choices-work).
 * The [maths behind the lifecycle calculations.](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Lifecycle-calculations:-theory-of-operation)
-* [Planned features](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Planned-features) for future releases.
 
 ### Having problems?
 * Check out the [troubleshooting guide](https://github.com/algernon-A/Lifecycle-Rebalance-Revisited/wiki/Troubleshooting-help) for tips on what to do.
