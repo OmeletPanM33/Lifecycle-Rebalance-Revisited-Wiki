@@ -11,4 +11,4 @@ After the 1.13 update, citizens now die randomly between 240 and 400(!), dependi
 Prior to the definition of 3.5 age-units-per-year (AUPY) introduced in 1.13, the original WG mod assumed 2.5 AUPY.  This original behaviour is replicated by the 'legacy calculations' option of this mod (which assumes 25 age units per decade); the 'Sunset Harbor calculations' use the game value of 3.5 AUPY (35 age units per decade).
 
 ### Note to modders
-For converting game ageing units to years of age, modders should refer to the game code for the conversion rate of 3.5, starting with `District.GetAverageLifespan`.
+For converting game ageing units to years of age, modders should refer to the game code to see for themselves the conversion rate of 3.5, starting with the method `District.GetAverageLifespan()`.
